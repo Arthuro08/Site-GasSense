@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Título</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!--Menu-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container1" style="text-align: left;">
+            <a class="navbar-brand" href="#">
+                <img src="imgs/Logo2.png" alt="Ícone da Logo" width="70" height="70">
+                <img src="imgs/Logo1.png" alt="Texto da Logo" width="150" height="30">
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#projeto">projeto</a>
+                </li>
+                <!--<li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            sobre o projeto
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">sensor de gases</a></li>
+                                <li><a class="dropdown-item" href="#">arduino</a></li>
+                                  <li><a class="dropdown-item" href="#">gás GLP</a></li>
+                            </ul>
+                        </li>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="#tutorial">tutorial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobrenosotros">sobre nós</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!--Início-->
+    <div class="home">
+        <div class="home-conteudo">
+            <div class="text-home">
+                <h1 class="home-title">O sensor de gás mais econômico do mercado</h1>
+                <p class="home-p">Protege você dos perigos do fogo</p>
+                <br>
+                <button class="btn-home" onclick="window.location.href='#projeto'">Saiba mais</button>
+            </div>
+        </div>
+    </div>
+    <!--Conteúdo-->
+
+
+    <div class="conteudo_" id="projeto" style="box-shadow: 0 0 32px 64px #040a34;">
+        <div class="part-conteudo2">
+            <h1 class="title"><b>Nosso Projeto</b></h1>
+            <br>
+            <p>
+                O GasSense é um sistema econômico e eficiente de monitoramento de vazamentos de gás inflamável (GLP),
+                desenvolvido com a plataforma Arduino e o sensor MQ-4. Ele detecta gases como metano e propano,
+                alertando os usuários com alarmes sonoros, LEDs e mensagens em um display LCD. Com fácil instalação e
+                integração com o aplicativo móvel (GasSense), ele oferece monitoramento em tempo real para prevenir
+                acidentes domésticos graves, como incêndios e explosões.
+            </p>
+        </div>
+        <div class="part-conteudo">
+            <img src="imgs/Logo3.png" alt="GasSense Logotype" width="100%">
+        </div>
+    </div>
+
+    <div class="conteudo_" id="projeto" style="background-color: white;">
+        <div class="part-conteudo">
+            <img src="imgs/telasdoapp.png" alt="GasSense Telas do App" width="100%">
+        </div>
+        <div class="part-conteudo2">
+            <h1 class="title" style="color: black;"><b>Aplicativo GasSense</b></h1>
+            <br>
+            <p style="color: black;">
+                Nosso aplicativo GasSense oferece uma interface simples e eficiente para monitorar a presença de gases
+                inflamáveis em tempo real. Nele o usuário tem acesso a:
+            </p>
+
+            <ul style="color: black;">
+                <li><b>Monitoramento em tempo real:</b> o usuário pode acompanhar os dados do sensor de gás diretamente
+                    no aplicativo, visualizando o status do ambiente.
+
+                </li>
+                <li><b>Alertas instantâneos:</b> o app envia notificações imediatas quando detecta níveis perigosos de
+                    gás, permitindo uma resposta rápida.
+
+                <li><b>Guia de montagem:</b> inclui um manual passo a passo que ensina como montar o detector de gás
+                    usando Arduino, com lista de componentes e código.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <div class="part-conteudo">
+            <img src="imgs/Arduino.png" alt="Arduino UNO" width="100%">
+        </div>
+        <div class="part-conteudo">
+            <h1 class="title"><b>Arduino</b></h1>
+            <br>
+            <p>
+                O Arduino é uma plataforma de código aberto que combina elementos de hardware e software, o que facilita
+                a prototipagem e desenvolvimento de projetos eletrônicos. Sua arquitetura simplificada inclui pinos de
+                entrada e saída que conectam a placa a um circuito eletrônico, permitindo uma troca eficiente de
+                informações entre o hardware e o software.
+            </p>
+        </div>
+    </div>
+    <div class="conteudo_">
+        <div class="part-conteudo2">
+            <h1 class="title"><b>Principais componentes do GasSense</b></h1>
+            <br>
+            <p>
+            <ul>
+                <li><b>Protoboard</b>: ferramenta onde são conectados todas as peças e cabos necessários para o
+                    funcionamento do equipamento.
+                </li>
+                <li><b>Sensor de Gás MQ-4</b>: dispositivo projetado para identificação de gases inflamáveis como
+                    Propano, Butano e Metano.</li>
+                <li><b>Painel LCD 16x2</b>: display com determinado número de pixels preenchidos com cristais líquidos.
+                </li>
+            </ul>
+            </p>
+        </div>
+        <div class="part-conteudo">
+            <img src="imgs/ImagemPecas.png" alt="Arduino UNO" width="100%">
+        </div>
+    </div>
+    <div class="conteudo" id="tutorial">
+        <div class="sobreNos">
+            <h1 align="center">Manual do GasSense</h1>
+            <br>
+
+            <div class="pdf">
+                <center>
+                    <a href="https://8d63088f-trial.flowpaper.com/ManualGassense/" class="fp-embed" data-fp-width="700px" data-fp-height="600px" style="max-width: 100%">Manual Gassense</a><script async defer src="https://cdn-online.flowpaper.com/zine/3.8.5/js/embed.min.js"></script>
+                </center>
+            </div>
+        </div>
+
+    </div>
+    <div class="conteudo_" id="sobrenosotros" style="background-color: white; box-shadow: 0px 0px 0px 0px;">
+        <div class="projeto">
+            <h1><b>Sobre Nós</b></h1>
+            <br>
+            <center>
+                <p>Somos um grupo de estudantes do curso técnico em Desenvolvimento de Sistemas da Escola Técnica
+                    Estadual de Taboão da Serra. Nosso projeto, GasSense, foi criado com o objetivo de desenvolver uma
+                    solução acessível e eficaz para detectar vazamentos de gás em ambientes domésticos, utilizando a
+                    plataforma Arduino. Ao longo do desenvolvimento, combinamos conhecimentos de eletrônica, programação
+                    e design de sistemas para garantir um produto que contribua para a segurança e o bem-estar das
+                    pessoas. Nosso foco está em criar tecnologias inovadoras e de fácil acesso, que possam ser
+                    replicadas por qualquer entusiasta de tecnologia.</p>
+
+
+                <div class="container">
+                    <article class="card">
+                        <div class="flip">
+                            <section class="front-card">
+                                <img src="./cards/Midori.png" alt="Midori" style="width: 210px; height: 280px;">
+                            </section>
+                            <section class="back-card">
+                                <img src="./cards/MidoriFunct.png" alt="Midori"
+                                    style="width: 210px; height: 280px;">
+                            </section>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="flip">
+                            <section class="front-card">
+                                <img src="./cards/gustavo.png" alt="Gustavo" style="width: 210px; height: 280px;">
+                            </section>
+                            <section class="back-card">
+                                <img src="./cards/GustavoFunct.png" alt="Gustavo"
+                                    style="width: 210px; height: 280px;">
+                            </section>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="flip">
+                            <section class="front-card">
+                                <img src="./cards/Larissa.png" alt="Larissa" style="width: 210px; height: 280px;">
+                            </section>
+                            <section class="back-card">
+                                <img src="./cards/LarissaFunct.png" alt="Larissa"
+                                    style="width: 210px; height: 280px;">
+                            </section>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="flip">
+                            <section class="front-card">
+                                <img src="./cards/Lima.png" alt="Lima" style="width: 210px; height: 280px;">
+                            </section>
+                            <section class="back-card">
+                                <img src="./cards/LimaFunct.png" alt="Lima" style="width: 210px; height: 280px;">
+                            </section>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="flip">
+                            <section class="front-card">
+                                <img src="./cards/Arthur.png" alt="Arthur" style="width: 210px; height: 280px;">
+                            </section>
+                            <section class="back-card">
+                                <img src="./cards/ArthurFunct.png" alt="Arthur"
+                                    style="width: 210px; height: 280px;">
+                            </section>
+                        </div>
+                    </article>
+                </div>
+        </div>
+        
+    </div>
+    </div>
+
+    <div class="conteudo" id="tutorial">
+        <div class="sobreNos">
+            <h1 align="center">Instale o GasSense Já</h1>
+            <br>
+
+            
+                <center>
+                    <img src="imgs/QRCode.png" height="300px" width="300px">
+                </center>
+            
+
+        </div>
+    </div>
+    
+    <footer>
+        <div class="rodape">
+            <img src="imgs/Logo4.png"><img src="imgs/centropaulasouza.png" height="60px" width="90px"><a href="https://etects.cps.sp.gov.br"><img src="imgs/Etectaboão.png" height="70px" width="100px" style="margin-top: 10px;"></a>
+           <a class="rodapelink" href="GasSense - Relatório parcial.pdf"> <p class="text-rod">Relatório</p></a>
+        </div>
+    </footer>
+
+    <div id="btnTop">
+        <i class="arrow up"></i>
+    </div>
+
+    <script>
+        const btn = document.getElementById("btnTop")
+
+        btn.addEventListener("click", function () {
+            window.scrollTo(0, 0)
+        })
+
+        document.addEventListener("scroll", ocultar)
+
+        function ocultar() {
+            if (window.scrollY > 10) {
+                btn.style.display = "flex"
+            } else {
+                btn.style.display = "none"
+            }
+        }
+
+        ocultar()
+    </script>
+</body>
+
+</html>
